@@ -23,6 +23,9 @@ class ViewController: UIViewController {
             customView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             customView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
+        customView.buttonUpClosure = {
+            print("Button Up was Tapped")
+        }
         print("Hello")
     }
 
