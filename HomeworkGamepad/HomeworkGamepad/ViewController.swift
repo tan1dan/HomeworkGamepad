@@ -26,6 +26,15 @@ class ViewController: UIViewController {
         customView.buttonUpClosure = {
             print("Button Up was Tapped")
         }
+        customView.buttonRightClosure = {
+            print("Button Right was Tapped")
+        }
+        customView.buttonLeftClosure = {
+            print("Button Left was Tapped")
+        }
+        customView.buttonDownClosure = {
+            print("Button Down was Tapped")
+        }
         print("Hello")
     }
 
